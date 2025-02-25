@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.secao {
+    padding: 50px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    margin-left: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 30px;
+    min-height: 85vh;
+}
+.principal h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+    letter-spacing: -4px;
+}
+
+.principal p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    color: #bbb;
+    margin-bottom: 40px;
+}
+
+.botao {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #4d7cfe;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.titulo-secao {
+    font-size: 42px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.titulo-secao::after {
+    content: "conteúdo obrigatorio";
+    display: block;
+    width: 100px;
+    height: 4px;
+    background-color: #4d7cfe;
+    position: absolute;
+    bottom: -15px;
+    left: 0px;
+}
+
+.grade-projetos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, (minmax(300px, 1fr)));
+    gap: 30px;
+    gap: 30px;
+}
+
+.card-projeto {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.img-projeto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.info-projeto {
+    padding: 20px 0;
+}
+
+.info-projeto h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-projeto p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.info-projeto a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4d7cfe;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
