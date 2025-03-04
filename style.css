@@ -6,7 +6,8 @@
 }
 
 body {
-    background-color: #b65858;
+    background-color: #2d616b;
+    Color: #fff;
 }
 
 .secao {
@@ -43,6 +44,10 @@ ul {
     letter-spacing: -4px;
 }
 
+.principal h1, span {
+    color: #1eaa48;
+}
+
 .principal p {
     font-size: 20px;
     margin-bottom: 20px;
@@ -54,7 +59,8 @@ ul {
 .botao {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #4d7cfe;
+    background-color: #1eaa48;
+    color: #fff;
     font-weight: bold;
     border-radius: 5px;
 }
