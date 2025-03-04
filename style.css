@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #2d616b;
+    background-color: #2d616b; /*BUSCAR PADRONIZAR TODAS AS CORES <--------------------------*/
     Color: #fff;
 }
 
@@ -45,7 +45,7 @@ ul {
 }
 
 .principal h1, span {
-    color: #1eaa48;
+    color: #1eaa48; /*BUSCAR PADRONIZAR TODAS AS CORES <--------------------------*/
 }
 
 .principal p {
@@ -59,7 +59,7 @@ ul {
 .botao {
     display: inline-block;
     padding: 15px 30px;
-    background-color: #1eaa48;
+    background-color: #1eaa48; /*BUSCAR PADRONIZAR TODAS AS CORES <--------------------------*/
     color: #fff;
     font-weight: bold;
     border-radius: 5px;
@@ -76,13 +76,13 @@ ul {
     display: block;
     width: 100px;
     height: 4px;
-    background-color: #48dd3a;
+    background-color: #48dd3a; /*BUSCAR PADRONIZAR TODAS AS CORES <--------------------------*/
     position: absolute;
     bottom: -5px;
     left: 0px;
 }
 
-.grade-projetos {
+.grade-projetos {                   /*-------> PAREI AQUI EM GRADE PROJETOS EM 1:17:30 <-------------*/
     display: grid;
     grid-template-columns: repeat(auto-fill, (minmax(300px, 1fr)));
     gap: 30px;
