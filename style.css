@@ -11,7 +11,10 @@ body {
 }
 
 .secao {
-    padding: 50px 0;
+    padding: 100px 0;
+    
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 header {
@@ -36,6 +39,7 @@ ul {
     height: 100vh;
     margin-left: 30px;
     min-height: 85vh;
+    padding: 100px 0;
 }
 .principal h1 {
     font-size: 80px;
@@ -91,7 +95,7 @@ ul {
 
 .card-projeto {
     background-color: #fff;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -100,7 +104,7 @@ ul {
 .img-projeto {
     width: 100%;
     height: 200px;
-    object-fit: cover;
+    object-fit: cover; /*IMAGEM COBRE TODO O ESPAÇO DISPONÍVEL*/
     border-radius: 20px;
 }
 
@@ -116,7 +120,7 @@ ul {
 .info-projeto p {
     font-size: 16px;
     color: #777;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .info-projeto a {
