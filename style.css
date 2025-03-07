@@ -22,14 +22,26 @@ header {
     color: #fff;
     padding: 10px 0px;
     text-align: center;
-    display: flex;
+    display: flex;   
+}
+
+h1 {
+    margin-left:50px;
+}
+
+.descricao-inicial {
+    margin-left: 50px;
     
 }
+
+
 
 ul {
     list-style: none;
     display: flex;
     gap: 50px;
+    margin-left: 80px;
+
 }
 
 .principal {
@@ -67,6 +79,7 @@ ul {
     color: #fff;
     font-weight: bold;
     border-radius: 5px;
+    margin-left: 50px;
 }
 
 .titulo-secao {
@@ -87,14 +100,14 @@ ul {
 }
 
 .grade-projetos {                   /*-------> PAREI AQUI EM GRADE PROJETOS EM 1:17:30 <-------------*/
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(auto-fill, (minmax(300px, 1fr)));
     gap: 30px;
     gap: 30px;
 }
 
 .card-projeto {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -131,3 +144,5 @@ ul {
     border-radius: 5px;
     text-decoration: none;
 }
+
+
