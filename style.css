@@ -6,8 +6,8 @@
 }
 
 body {
-    background-color: #2d616b; /*BUSCAR PADRONIZAR TODAS AS CORES <--------------------------*/
-    Color: #fff;
+    background-color: rgb(90, 110, 143); 
+        Color: #fff;
 }
 
 .secao {
@@ -145,4 +145,20 @@ ul {
     text-decoration: none;
 }
 
+/* aqui parte da parte ultima parte do section  */
 
+.sobre {
+    display: grid;
+    gap: 50px;
+    margin-left: 50px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.img-sobre {
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 210px;
+}
