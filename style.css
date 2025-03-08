@@ -154,6 +154,7 @@ ul {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 50px;
+    max-width: 1200px;
 }
 
 .img-sobre {
@@ -161,4 +162,34 @@ ul {
     height: 100%;
     object-fit: cover;
     border-radius: 210px;
+}
+
+.content-sobre h2{
+    margin-bottom: 30px;
+    
+}
+
+.content-sobre p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.habilidades {
+    display: flex;
+    gap: 19px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    margin-left: 8px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.tag-habilidades {
+    background-color: rgba(77, 124, 254, 0.2);
+    color: #48dd3a;
+    padding: 5px 18px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
 }
