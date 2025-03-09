@@ -8,6 +8,7 @@
 body {
     background-color: rgb(90, 110, 143); 
         Color: #fff;
+       
 }
 
 .secao {
@@ -61,7 +62,7 @@ ul {
 }
 
 .principal h1, span {
-    color: #1eaa48; /*BUSCAR PADRONIZAR TODAS AS CORES <--------------------------*/
+    color: #48dd3a; /*BUSCAR PADRONIZAR TODAS AS CORES <--------------------------*/
 }
 
 .principal p {
@@ -193,3 +194,48 @@ ul {
     margin-bottom: 10px;
     font-size: 14px;
 }
+
+/* aqui parte do CONTATO */
+
+.contato {
+    display: grid;
+    gap: 50px;
+    margin-left: 50px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 50px;
+    max-width: 1200px;
+}
+
+.botao-contato {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: rgba(0, 0, 0, 0.1); 
+    color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+footer{ 
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.efeito-cursor:hover {
+    transform: translateY(-5px);
+    transition: transform 0.5s ease-in-out;
+}
+
