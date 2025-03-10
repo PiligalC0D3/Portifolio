@@ -28,6 +28,17 @@ header {
 
 h1 {
     margin-left:50px;
+    font-size: 70px;
+    margin-top: 280px;
+}
+
+p {
+    font-size: 20px;;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
 }
 
 .descricao-inicial {
@@ -81,6 +92,7 @@ ul {
     font-weight: bold;
     border-radius: 5px;
     margin-left: 50px;
+    margin-top: 90px;
 }
 
 .titulo-secao {
@@ -227,6 +239,7 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 10px;
+
 }
 
 a {
@@ -238,4 +251,20 @@ a {
     transform: translateY(-5px);
     transition: transform 0.5s ease-in-out;
 }
+
+.cursor{
+    pointer-events: none;
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    top: 0 ;
+    left: 0;
+    background-color: rgba(72, 221, 58, 0.5);
+    z-index: 99;
+    transform: translate(-50%, -50%);
+
+    
+}
+
 

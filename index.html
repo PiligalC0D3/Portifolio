@@ -12,7 +12,7 @@
     <svg xmlns="http://www.w3.org/2000/svg" width="0" height="0" style="display:none;"></svg>
 
     <title>Portifoli Michel</title>
-
+<body>
     <header>
         <ul>
             <li>
@@ -35,7 +35,14 @@
 <section class="Principal">
     <div>
         <h1> Olá, eu sou<span> Michel Silva Santos</span></h1>
-        <p class="descricao-inicial">Desenvolvedor em processo de aprendizado, em transação decarreira. Elaborar um texto melhor para apresentação. Veja meus projetos. </p>
+        <p class="descricao-inicial"><b>Profissional em fase de transição de carreira da área de Suporte Técnico N1,
+             N2 e Infraestrutura para a área de Desenvolvimento Web, onde estou me dedicando a aprender tecnologias
+              como HTML, CSS e JavaScript e outras ferramentas essenciais para criação e manutenção de aplicações web.
+               Minha experiência técnica, aliada à minha capacidade de concentração, organização e alinhamento com os objetivos propostos,
+                me proporciona uma base sólida para contribuir nessa nova área, 
+                 trazendo soluções práticas e foco em entregar resultados de qualidade. </b>
+        </p>
+
         <a class="botao efeito-cursor">Ver Projetos</a>
     </div>
 </section>
@@ -166,8 +173,17 @@
     </footer>
 
 
-<body>
 
+        <div class="cursor"></div>
 </body>
+<script>
+    const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', function(info){
+        cursor.style.left = info.pageX + 'px';
+        cursor.style.top = info.pageY + 'px';
+    });
+
+</script>
 
 </html>
