@@ -263,8 +263,60 @@ a {
     background-color: rgba(72, 221, 58, 0.5);
     z-index: 99;
     transform: translate(-50%, -50%);
-
-    
+ 
 }
 
+img {
+    max-width: 90%;
+    height: auto;
+}
 
+/*Parte do responsivo*/
+
+@media (max-width: 768px) {
+    .secao {
+        padding: 50px 0;
+    }
+
+    .descricao-inicial {
+        margin-left: 0;
+    }
+
+    ul {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .principal {
+        text-align: center;
+    }
+
+    .principal h1 {
+        font-size: 50px;
+    }
+
+    .titulo-secao {
+        font-size: 32px;
+    }
+
+    .grade-projetos {
+        grid-template-columns: 1fr;
+    }
+
+    .sobre {
+        grid-template-columns: 1fr;
+    }
+
+    .img-sobre {
+        width: 100%;
+    }
+
+    .contato {
+        grid-template-columns: 1fr;
+    }
+
+    .botao-contato {
+        margin-left: 0;
+    }
+    
+}
