@@ -43,7 +43,8 @@ p {
 
 .descricao-inicial {
     margin-left: 50px;
-    
+    text-align: justify;
+    margin-right: 50px;
 }
 
 
@@ -274,12 +275,34 @@ img {
 /*Parte do responsivo*/
 
 @media (max-width: 768px) {
+   
+   header {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1{
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    p{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+   
+   
+   
     .secao {
         padding: 50px 0;
     }
 
     .descricao-inicial {
         margin-left: 0;
+        text-align: justify;
+        margin-left: 8.2px;
+        margin-right: 8.2px;
     }
 
     ul {
