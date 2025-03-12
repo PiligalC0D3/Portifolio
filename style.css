@@ -39,6 +39,7 @@ p {
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    text-align: justify;
 }
 
 .descricao-inicial {
@@ -93,13 +94,14 @@ ul {
     font-weight: bold;
     border-radius: 5px;
     margin-left: 50px;
-    margin-top: 90px;
+    margin-top: 160px;
 }
 
 .titulo-secao {
     font-size: 42px;
     margin-bottom: 60px;
     position: relative;
+    margin-top: 30px;
 }
 
 .titulo-secao::after {
@@ -180,6 +182,7 @@ ul {
 
 .content-sobre h2{
     margin-bottom: 30px;
+    text-align: justify;
     
 }
 
@@ -187,6 +190,7 @@ ul {
     font-size: 18px;
     color: #777;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .habilidades {
@@ -268,7 +272,7 @@ a {
 }
 
 img {
-    max-width: 90%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -323,15 +327,37 @@ img {
     }
 
     .grade-projetos {
-        grid-template-columns: 1fr;
+        display: grid;
     }
 
     .sobre {
         grid-template-columns: 1fr;
+        
     }
 
     .img-sobre {
-        width: 100%;
+        width: 85%;
+        height: 55vh;
+
+    }
+
+    .conteudo-sobre p {
+        text-align: justify;
+        margin-left: -35px;
+        margin-right: 11.5px;
+        display: flex;
+}
+    .habilidades{
+        display: flex;
+    
+    }
+
+    .tag-habilidades {
+        margin-left: -30px;
+        margin-right: 14px;
+        font-size: 9px;
+      ;
+
     }
 
     .contato {
@@ -339,7 +365,11 @@ img {
     }
 
     .botao-contato {
-        margin-left: 0;
+        display: inline-block;
+        padding: 0px 0px;
+        margin-left: 6px;
+        
+
     }
     
 }
