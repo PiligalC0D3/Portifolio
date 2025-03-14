@@ -123,7 +123,7 @@ ul {
 }
 
 .card-projeto {
-    background-color: #ffffff;
+    background-color: rgba(77, 124, 254, 0.2); 
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -139,6 +139,7 @@ ul {
 
 .info-projeto {
     padding: 20px 0;
+    color: #fff;
 }
 
 .info-projeto h3 {
@@ -148,15 +149,15 @@ ul {
 
 .info-projeto p {
     font-size: 16px;
-    color: #777;
+    color: #fff;
     margin-bottom: 15px;
+    
 }
 
 .info-projeto a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #1eaa48;
-    color: #fff;
     border-radius: 5px;
     text-decoration: none;
 }
@@ -210,6 +211,20 @@ ul {
     margin-right: 10px;
     margin-bottom: 10px;
     font-size: 14px;
+}
+
+.titulo-projetos{
+    color: red;
+}
+
+.decrição-card{
+       margin-left: 50px;
+        margin-right: 50px;
+        text-align: justify;
+        margin-top: 50px;
+        margin-bottom: 50px;  
+        font-color: #703636;
+        font-size: 20px; 
 }
 
 /* aqui parte do CONTATO */
