@@ -11,4 +11,4 @@ Esse é apenas o começo! Continuo estudando, aprimorando minhas habilidades e t
 Estou aberto a feedbacks e sugestões. Vamos conectar e trocar ideias! 🚀🔗
 hashtag#DesenvolvimentoWeb hashtag#Portfólio hashtag#TransiçãoDeCarreira hashtag#FrontEnd hashtag#Programação hashtag#Dev
 
-<img src="assets/pronto.PNG"> 
+<img src="/img/pronto.PNG"> 
