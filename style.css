@@ -387,3 +387,18 @@ img {
     }
     
 }
+.carousel-container {
+    position: relative;
+    overflow: hidden; /* Esconde o que sai da área visível */
+  }
+  
+  .carousel-wrapper {
+    display: flex;
+    transition: transform 0.4s ease-in-out; /* Suavidade ao deslizar */
+  }
+  
+  .card-projeto {
+    min-width: 300px;
+    margin: 0 10px;
+  }
+  
